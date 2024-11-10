@@ -18,6 +18,7 @@ app.use(cors({
 mongoose.connect(process.env.DATABASE_URI, {})
     .then(() => {
         console.log('Connected to MongoDB');
+        console.log('The code updated');
         // return uploadSeeds.apply();  // Return the promise from apply method
     })
     .then(() => {
