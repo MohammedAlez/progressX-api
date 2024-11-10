@@ -9,7 +9,7 @@ const { swaggerSpec, swaggerUi } = require('./utils/swagger');
 
 // Allow requests from http://localhost:3000
 app.use(cors({
-    origin: 'https://progress-x-client.vercel.app/',
+    origin: 'http://localhost:5173',
     methods: 'GET,POST,PUT,DELETE',
     credentials: true,
 }));
